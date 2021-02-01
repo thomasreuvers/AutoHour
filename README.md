@@ -1,7 +1,10 @@
 # AutoHour
- Simple app that auto fills your intern hours based on input. Build with Selenium framework and WinForms.
+ Simple app that auto fills your intern hours based on input. Build with Selenium framework and WinForms. (For ROC Nijmegen, Trajectplanner)
 
+ <br />
+ <br />
  
+
 MIT License
 
 Copyright (c) 2021 Thomas
