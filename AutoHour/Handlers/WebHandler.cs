@@ -49,7 +49,6 @@ namespace AutoHour.Handlers
             if (_webDriver.Exists(By.Id(OnderwijsOnlinePage.LoginErrorText), 250))
             {
                 ExceptionHandler.ShowException("Invalid input", _webDriver.FindElement(By.Id(OnderwijsOnlinePage.LoginErrorText)).Text, _webDriver);
-                // throw new Exception(_webDriver.FindElement(By.Id(OnderwijsOnlinePage.LoginErrorText)).Text);
             }
 
             // Move cursor to bpv menu tab
@@ -104,7 +103,7 @@ namespace AutoHour.Handlers
             Thread.Sleep(2000);
 
             // Everything is done close windows and dispose web driver
-            // Close();
+            Close();
         }
 
         // Close the web driver
